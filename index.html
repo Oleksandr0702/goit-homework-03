@@ -8,40 +8,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
     <title>WebStudio</title>
-
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
-<!-- Custom styles -->
+<!-- modern-normalize -->
+    <link hidden="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+<!-- Custom styles -->        
     <link rel="stylesheet" href="./css/styles.css" />
    
 </head>
 <body class="page">
  <!-- Header section -->
-    <header class="header">
-        <nav class="header-nav">
-        <a class="header-logo" href="./index.html">WEB<span class="header-logo-right">STUDIO</span></a>
-        <ul class="header-list">
-            <li class="header-item">
-                <a class="header-item-logo" href="./index.html">Studio</a>
-            </li>
-            <li class="header-item">
-                <a class="header-item-logo" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="header-item">
-                <a class="header-item-logo" href="">Contacts</a>
-            </li>
-        </ul>
+    <header class="header container">
+        <nav class="header-nav container">
+            <a class="header-logo" href="./index.html">WEB<span class="header-logo-right">STUDIO</span></a>
+            <ul class="header-list container">
+                <li class="header-item">
+                    <a class="header-item-logo" href="./index.html">Studio</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-item-logo" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-item-logo" href="">Contacts</a>
+                </li>
+            </ul>
         </nav>
         <address class="header-geolocation">
-        <ul class="header-networks">
-            <li class="header-networks-item">
-                <a class="header-networks-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="header-networks-item">
-                <a class="header-networks-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-            </li>
-        </ul>
+            <ul class="header-networks container">
+                <li class="header-networks-item">
+                    <a class="header-networks-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header-networks-item">
+                    <a class="header-networks-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
         </address>
     </header>
 
@@ -51,10 +53,10 @@
 <!-- hero image (section 0) -->
     <section class="section-hero"> 
 
-        <h1 class="hero-title">
+        <p class="hero-title">
             Effective Solutions
              for Your Business
-        </h1>
+        </p>
         <button class="hero-btn hero-btn-text" type="button">Order Service</button>
     
     </section>
